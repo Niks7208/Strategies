@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Strategy UI Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="toggle-container" id="viewToggle">
+    <div class="toggle-btn active" data-view="Bullish">Bullish</div>
+    <div class="toggle-btn" data-view="Bearish">Bearish</div>
+    <div class="toggle-btn" data-view="RangeBound">RangeBound</div>
+    <div class="toggle-btn" data-view="Volatile">Volatile</div>
+  </div>
+
+  <select id="dateDropdown"></select>
+
+  <div class="cards" id="strategyCards"></div>
+  <div class="empty-state" id="emptyState" style="display:none"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
